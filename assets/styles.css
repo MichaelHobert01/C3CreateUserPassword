@@ -1,0 +1,60 @@
+h1 {
+    text-align: center; 
+    color: black; 
+    font-family: monospace;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#interactive {
+    border: 1px solid black; 
+}
+
+input[type="submit"] {
+    background-color: red; /* Set the background color */
+    color: white; /* Set the text color */
+    padding: 12px 20px; /* Set the padding */
+    border: none; /* Remove the border */
+    border-radius: 20px; /* Add rounded corners */
+    cursor: pointer; /* Change mouse pointer to a hand */
+    display: flex;
+    justify-content: center;
+  }
+
+  div#interactive {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #000;
+  }
+  #genpas {
+    text-align: left;
+    padding-left: 122px; 
+    font-family: monospace;
+  }
+
+  #password {
+    width: 80%;
+    height: 200px;
+    padding: 12px 20px;
+    margin: 8px 0; 
+    text-align: center; 
+    box-sizing: border-box;
+    border: 3px dashed black; 
+    display: flex;
+    justify-content: center;
+    border-radius: 10px; 
+}
+
+div.checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+div.passwordgenbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 15px; 
+}
+
