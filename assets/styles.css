@@ -1,17 +1,40 @@
+
+
+body {
+  background-color: whitesmoke;
+}
+
+/* the title of the page */
 h1 {
     text-align: center; 
     color: black; 
     font-family: monospace;
 }
 
-body {
-    background-color: whitesmoke;
+/* the text "Generate a Password" */
+#genpas {
+  text-align: left;
+  padding-left: 122px; 
+  font-family: monospace;
 }
 
+/* all of the page except for the header is here */
 #interactive {
     border: 1px solid black; 
 }
 
+div#interactive {
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #000;
+}
+
+/* The middle of the interactive */ 
+div.checkbox {
+  display: flex;
+  justify-content: center;
+}
+
+/* The Generate Password button */
 input[type="submit"] {
     background-color: red; /* Set the background color */
     color: white; /* Set the text color */
@@ -23,16 +46,7 @@ input[type="submit"] {
     justify-content: center;
   }
 
-  div#interactive {
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px #000;
-  }
-  #genpas {
-    text-align: left;
-    padding-left: 122px; 
-    font-family: monospace;
-  }
-
+/* the text the javascript will generate */
   #password {
     width: 80%;
     height: 200px;
@@ -46,11 +60,8 @@ input[type="submit"] {
     border-radius: 10px; 
 }
 
-div.checkbox {
-  display: flex;
-  justify-content: center;
-}
 
+/* the placement of the password generate button */
 div.passwordgenbutton {
   display: flex;
   align-items: center;
